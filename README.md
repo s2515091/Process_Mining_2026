@@ -22,3 +22,20 @@ o 9. Conclusion & Future Work
 
 
 ## Important Note on Reproduceability and availablity
+
+## Future Work: Predictive Process Monitoring (PPM) Pipeline
+
+To bridge the gap between historical diagnostic profiling and active shop-floor intervention, this repository includes an initial, production-ready machine learning framework in the script `predictive.py`. This script acts as the structural foundation for transitioning the project into a predictive and prescriptive monitoring system.
+
+### Pipeline Execution Framework
+
+The predictive module is designed around three process-aware phases:
+
+1. **Prefix Slicing & Feature Engineering:** Continuous event logs are parsed into chronological step-length snapshots to simulate incomplete, active processes on the floor:
+   Each slice aggregates dynamic temporal attributes (`elapsed_time`, `prefix_length`) with decoded static environmental configurations (`num_agvs`, `dispatching_rule`, `layout_direction`).
+
+2. **Supervised Gradient Boosting:** Engineered features are exposed to an **XGBoost Regressor** to model non-linear agent interactions and accurately forecast the remaining cycle time down to the terminal `Drain` station.
+
+3. **Prescriptive "What-If" Analysis:** The framework provides the baseline mathematical engine to evaluate 27 synthetic permutations of floor layouts against a live running case, sorting configurations by efficiency to actively prevent Service Level Agreement (SLA) breaches.
+
+---
