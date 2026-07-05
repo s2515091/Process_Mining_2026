@@ -1,4 +1,4 @@
-# Process_Mining_2026
+# Resource-Centric Process Mining Approach to Bottleneck Analysis in Agent-Based Manufacturing
 
 ## Future Work: Predictive Process Monitoring (PPM) Pipeline
 
