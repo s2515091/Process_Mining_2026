@@ -5,7 +5,7 @@ This repository contains the complete Python data science pipeline used to analy
 
 Ensure Python 3.10+ is installed. Clone this repository and configure your virtual environment
 
-###
+### Execution
 
 Launch the Jupyter instance to run the scripts step-by-step: 
 Bash
