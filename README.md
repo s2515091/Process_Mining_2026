@@ -1,6 +1,6 @@
 # Resource-Centric Process Mining Approach to Bottleneck Analysis in Agent-Based Manufacturing
 
-This repository contains the complete Python data science pipeline used to analyze post-execution event logs from an agent-based manufacturing system. Following the **Process Mining Project Methodology (PMPM)** framework, this project bypasses traditional control-flow modeling to isolate systemic constraints using a performance-oriented resource lens.
+This repository contains the complete Python data science pipeline used to analyze post-execution event logs from an agent-based manufacturing system. Following the **Process Mining Project Methodology (PMPM)** framework, this project bypasses traditional control-flow modeling to isolate systemic constraints using a performance-oriented resource lens. The documentation and analysis can be thoroughly followed in the `resource_analysis.ipynb` notebook.
 
 ## Future Work: Predictive Process Monitoring (PPM) Pipeline
 
