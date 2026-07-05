@@ -11,7 +11,7 @@ Ensure Python 3.10+ is installed. Clone this repository and configure your virtu
 Launch the Jupyter instance to run the scripts step-by-step: 
 Bash
 ```
-jupyter notebook Process_Mining.ipynb
+jupyter notebook resource_analysis.ipynb
 ```
 
 ## Future Work: Predictive Process Monitoring (PPM) Pipeline
